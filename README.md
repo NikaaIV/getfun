@@ -19,20 +19,20 @@ This library was heavily inspired by the library (https://github.com/cs50/libcs5
 
 ## Installation
 
-### Option 1: System-Wide Installation (Linux)
+### Option 1: System-Wide Installation (Linux / macOS)
 
-Install `getfun.h` and `libgetfun.so` into `/usr/local` so you can include `<getfun.h>` from any project:
+Install `getfun.h` into `/usr/local/include` so you can include `<getfun.h>` from any project:
 
 ```bash
-git clone https://github.com
+git clone https://github.com/NikaaIV/getfun
 cd getfun
 sudo make install
 ```
 
-Compile your programs linking `-lgetfun`:
+Compile your programs normally:
 
 ```bash
-gcc your_program.c -lgetfun -o your_program
+gcc your_program.c -o your_program
 ```
 
 To uninstall:
@@ -43,10 +43,10 @@ sudo make uninstall
 
 ### Option 2: Local Project Include
 
-Copy `getfun.h` and `getfun.c` into your project folder, include `#include "getfun.h"`, and compile them together:
+Simply copy `getfun.h` into your project folder and include it with quotes:
 
-```bash
-gcc your_program.c getfun.c -o your_program
+```c
+#include "getfun.h"
 ```
 
 ## Quick Example (visible in `examples/example.c`)
