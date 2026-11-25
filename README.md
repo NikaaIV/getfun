@@ -15,7 +15,7 @@ In standard C, reading user input with `scanf()` can easily leave invalid charac
 
 ## Note
 
-This library was created as a learning project while studying C and CS50, exploring input buffers, dynamic memory allocation (`malloc`/`realloc`), and clean library design.
+This library was heavily inspired by the library (https://github.com/cs50/libcs50). created as a learning project while studying C and CS50, exploring input buffers, dynamic memory allocation (`malloc`/`realloc`), and clean library design.
 
 ## Installation
 
